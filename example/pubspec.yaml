@@ -1,0 +1,22 @@
+name: nord_example
+description: Demonstrates nord theming
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nord:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  effective_dart: ^1.3.0
+
+flutter:
+  uses-material-design: true
